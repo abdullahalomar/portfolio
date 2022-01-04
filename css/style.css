@@ -25,23 +25,8 @@ h1 {
     padding-left: 4%;
 }
 
-.half-shadow {
-    box-shadow: 10px 10px 40px gray;
-    width: 60%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    border-radius: 10px;
-}
-
 .half img {
     width: 65%;
-    padding-left: 10%;
-}
-
-.half-formal img {
-    width: 75%;
     padding-left: 10%;
 }
 
@@ -54,10 +39,41 @@ h1 {
     font-weight: bold;
 }
 
-.top-banner {
-    background-image: url(../images/top-banner.png);
-    background-repeat: no-repeat;
-    margin-bottom: 5%;
+.link-button:hover {
+    background-image: linear-gradient(#f12720, #ec8b73);
+}
+
+ul {
+    list-style-type: none;
+    margin: 8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(70, 164, 226);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border-radius: 15px;
+    background-image: linear-gradient(#6885c4, #4c5975);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-image: linear-gradient(#22c1c3, #3e87ad);
+}
+
+.active {
+    background-color: #46c59b;
 }
 
 .about {
@@ -67,6 +83,26 @@ h1 {
     margin-bottom: 10%;
 }
 
+.half-formal img {
+    width: 75%;
+    padding-left: 10%;
+}
+
+.top-banner {
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+}
+
+.half-shadow {
+    box-shadow: 10px 10px 40px gray;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+}
 
 .exper {
     margin-left: 7%;
