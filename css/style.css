@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+.heading {
+    font-size: 30px;
+}
+
 .name {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 5%;
 }
@@ -19,17 +23,26 @@ section {
 .half {
     width: 50%;
     padding-left: 4%;
+}
 
+.half-shadow {
+    box-shadow: 10px 10px 40px gray;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
 }
 
 .half img {
-    width: 70%;
-    padding-left: 15%;
+    width: 65%;
+    padding-left: 10%;
 }
 
 .half-formal img {
     width: 75%;
-    padding-left: 20%;
+    padding-left: 10%;
 }
 
 .link-button {
@@ -44,11 +57,40 @@ section {
 .top-banner {
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 5%;
 }
 
 .about {
     background-image: url(../images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 10%;
+}
 
+
+.exper {
+    margin-left: 7%;
+    color: orangered;
+}
+
+.experience {
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 15%;
+}
+
+#border-grad-one {
+    border-left: 8px solid;
+    border-image: linear-gradient(#1a8cff, #90b5da);
+    border-image-slice: 1;
+}
+
+#border-grad-two {
+    border-left: 8px solid;
+    border-image: linear-gradient(#ff1a1a, #ff9999);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
