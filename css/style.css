@@ -127,6 +127,10 @@ li a:hover {
     border-image-slice: 1;
 }
 
+.footer-aria {
+    background-color: slategrey;
+}
+
 footer p {
     text-align: center;
 }
